@@ -219,33 +219,23 @@ POST STYLING
 	}
 
 	blockquote {
-		clear: both;
-		margin: 2.5em 0;
-		padding: 0;
-		line-height: 1.8;
-		position: relative;
-
-		&:before {
-			content: "";
-			position: absolute;
-			top: -1.25em;
-			background: $background-color;
-			display: block;
-			height: 2px;
-			width: 150px;
-			left: calc(50% - 75px);
-		}
-
-		&:after {
-			content: "";
-			position: absolute;
-			bottom: -1.25em;
-			background: $background-color;
-			display: block;
-			height: 2px;
-			width: 150px;
-			left: calc(50% - 75px);
-		}
+	  border-left: 4px solid #dddddd;
+	  color: #777777;
+	  line-height: 1.8;
+	  position: relative;
+	}
+	blockquote >:first-child {
+	  padding: 0;
+	  margin-top: 0;
+	}
+	blockquote >:last-child {
+	  padding: 0;
+	  margin-bottom: 0;
+	}
+	blockquote p {
+	  width: auto;
+	  margin: 0 1rem 2rem;
+	  font-size: medium;
 	}
 
 	.meta {
