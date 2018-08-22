@@ -1,7 +1,7 @@
 title: 李会超
 description: A iOS Developer
 
-url: http://aochuih.github.io
+url: https://lihuichaoo.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,7 +20,7 @@ navigation:
    url: /about
 
 social:
-   github: aochuih
+   github: lihuichaoo 
    twitter: aochuih
    facebook: lihuichaoo
    email: lihuichaoo@gmail.com
